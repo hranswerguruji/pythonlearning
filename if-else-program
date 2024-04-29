@@ -1,0 +1,12 @@
+print("Welcome to if else program demo session!")
+height = int(input("What is your height in cm? "))
+
+if height >= 120:
+    age = int(input("What is your age?"))
+    print("You can ride the rollercoaster!")
+    if age <= 12:
+        print(f"Your ticket is ${5}")
+    else:
+        print(f"Your ticket is ${12}")
+else:
+    print("You can't ride the rollercoaster!")
