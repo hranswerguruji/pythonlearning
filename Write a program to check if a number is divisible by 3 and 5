@@ -1,0 +1,9 @@
+number = int(input("Which number do you want to check? "))
+if number % 3 == 0 and number % 5 == 0:
+  print("This number is divisible by 3 and 5.")
+elif number % 3 == 0 and number % 5 != 0:
+  print("This number is divisible by 3 but not 5.")
+elif number % 3 != 0 and number % 5 == 0:
+  print("This number is divisible by 5 but not 3.")
+else:
+  print("This number is not divisible by 3 or 5.")
