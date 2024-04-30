@@ -17,6 +17,16 @@ love_score=random.randint(10,100)
 print(f"The love score is: {love_score}")
 
 
+Example(2):
+#---- Print Head or Tail
+side_number = random.randint(0, 1)
+if side_number == 1:
+  print("Head")
+else:
+  print("Tail")
+
+
+
 For reference:
 https://docs.python.org/2/library/random.html
 https://www.askpython.com/?s=random+number
