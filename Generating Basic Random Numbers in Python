@@ -1,0 +1,22 @@
+Python defines a set of functions that are used to generate or manipulate random numbers through the random module. 
+
+Example(1):
+
+import random
+
+random_number=random.randint(100,1000)
+print("The random number is: {0} ",random_number)
+
+random_float=random.random()
+print("The random float is: {0} ",random_float)
+
+random_float_uniform=random.uniform(1,5)
+print("The random float uniform is: {0} ",random_float_uniform)
+
+love_score=random.randint(10,100)
+print(f"The love score is: {love_score}")
+
+
+For reference:
+https://docs.python.org/2/library/random.html
+https://www.askpython.com/?s=random+number
