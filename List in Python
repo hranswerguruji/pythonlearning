@@ -1,0 +1,14 @@
+A list is a data structure in Python that is a mutable, or changeable, ordered sequence of elements.
+Each element or value that is inside of a list is called an item. Just as strings are defined as characters between quotes, lists are defined by having values between square brackets [ ]
+
+Example:-
+states_of_india = ["Maharashtra", "Gujrat", "Delhi", "Karnataka", "Tamil Nadu", "Bihar"]
+print(states_of_india[5])
+
+states_of_india.append("Rajasthan")
+print(states_of_india)
+states_of_india.extend(["Punjab", "Haryana"])
+print(states_of_india)
+
+
+https://docs.python.org/3/tutorial/datastructures.html
